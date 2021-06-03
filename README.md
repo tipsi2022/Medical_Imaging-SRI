@@ -1,4 +1,4 @@
 # Medical Imaging and Machine Learning
 
-## U-NET Reference
+## UNET Reference
 https://youtu.be/oLvmLJkmXuc
