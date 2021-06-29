@@ -36,7 +36,6 @@ from tensorflow.keras.layers import Conv2D
 from tensorflow.keras.layers import Concatenate
 from tensorflow.keras.layers import UpSampling2D
 from tensorflow.keras.layers import MaxPooling2D
-
 tf.config.run_functions_eagerly(True)
 
 """DEFINING PATH TO DATASET"""
