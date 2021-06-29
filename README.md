@@ -3,6 +3,3 @@ Pixel-Wise Image Segmentation of Biomedical Images using UNET Model and Tensorfl
 
 ## Lung Sugmentation using CT-Scans Dataset:-
 * Link to Dataset -> https://www.kaggle.com/tipsijadav/covid19-ct
-
-## Tuberculosis Classification using X-Ray Images Dataset:-
-* Link to Dataset -> https://www.kaggle.com/tawsifurrahman/tuberculosis-tb-chest-xray-dataset 
