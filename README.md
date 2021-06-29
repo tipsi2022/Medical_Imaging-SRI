@@ -1,5 +1,5 @@
 # Medical Imaging and Machine Learning
-Pixel-Wise Image Segmentation of Biomedical Images using UNET Model and Tensorflow Library.
+Pixel wise Image Segmentation of Biomedical Images to detect Severe Pathology in Lungs and Brain using UNET Model and TensorFlow Library.
 
 * Link to Dataset -> https://www.kaggle.com/tipsijadav/covid19-ct
 
