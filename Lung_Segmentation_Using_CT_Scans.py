@@ -113,7 +113,7 @@ def unet():
     
     d1 = up_samp(bn, c2, f[1])
     d2 = up_samp(d1, c1, f[0])
- 
+    
     outputs = Conv2D(3, (1, 1), padding="same", activation="softmax")(d2)
   
     model = Model(inputs, outputs)
@@ -162,6 +162,5 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.show()
 
 """EVALUATION ON TEST DATA-SET"""
-
 evalu = model.evaluate(test_images, test_masks, verbose=0)
 print('Dice Coefficient of model on Test Data-Set = '"{:.2f}".format(evalu[1]*100), '%')
