@@ -4,14 +4,14 @@ DATASET DOWNLOAD FROM KAGGLE
 2. Click on Create New API Token - It will download kaggle.json file on your machine.
 3. Run the following commands(Choose the kaggle.json file that you downloaded).
 """
-! pip install -q kaggle
-from google.colab import files
-files.upload()
-! mkdir ~/.kaggle
-! cp kaggle.json ~/.kaggle/
-! chmod 600 ~/.kaggle/kaggle.json
-! kaggle datasets download -d tipsijadav/covid19-ct
-! unzip \*.zip
+#! pip install -q kaggle
+#from google.colab import files
+#files.upload()
+#! mkdir ~/.kaggle
+#! cp kaggle.json ~/.kaggle/
+#! chmod 600 ~/.kaggle/kaggle.json
+#! kaggle datasets download -d tipsijadav/covid19-ct
+#! unzip \*.zip
 
 """IMPORTING NECESSARY LIBRARIES"""
 import os
