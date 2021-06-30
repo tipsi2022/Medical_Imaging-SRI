@@ -1,7 +1,7 @@
 # Medical Imaging and Machine Learning
 
-## Lung Segmentation using CT-Scans
-Lung segmentation using CT-Scans to detect severe pathology using UNET Model and TensorFlow library.
+## Lung Segmentation of CT-Scans
+Lung segmentation of CT-Scans to detect severe pathology using UNET Model and TensorFlow library.
 
 ### Dataset:-
 * Link to Dataset -> https://www.kaggle.com/tipsijadav/covid19-ct
