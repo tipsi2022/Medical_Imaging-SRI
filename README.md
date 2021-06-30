@@ -1,7 +1,8 @@
 # Medical Imaging and Machine Learning
-Pixel wise Image Segmentation of Biomedical Images to detect Severe Pathology in Lungs and Brain using UNET Model and TensorFlow Library.
 
-## Lung Segmentation using CT Scans
+## Lung Segmentation using CT-Scans
+Lung Segmentation of CT-Scans to detect Severe Pathology using UNET Model and TensorFlow Library.
+
 ### Dataset:-
 * Link to Dataset -> https://www.kaggle.com/tipsijadav/covid19-ct
 
