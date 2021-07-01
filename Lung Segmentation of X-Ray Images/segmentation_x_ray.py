@@ -5,7 +5,6 @@
 2. Click on Create New API Token - It will download kaggle.json file on your machine.
 3. Run the following commands(Choose the kaggle.json file that you downloaded).
 """
-
 #! pip install -q kaggle
 #from google.colab import files
 #files.upload()
@@ -125,7 +124,8 @@ model.compile(optimizer='adam',
 model.summary()
 
 """TRAINING/SAVING THE MODEL"""
-checkpoint = ModelCheckpoint("/content/model_unet.h5", monitor="val_dice_coefficient", save_best_only=True, mode='max', save_freq="epoch")
+filepath = "/content/model_unet.h5"
+checkpoint = ModelCheckpoint(filepath, monitor="val_dice_coefficient", save_best_only=True, mode='max', save_freq="epoch")
 history = model.fit(train_images,
                     train_masks,
                     epochs=100,
@@ -156,7 +156,7 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.show()
 
 """LOAD THE BEST SAVED MODEL"""
-model_load = load_model("/content/model_unet.h5", custom_objects={"dice_coefficient": dice_coefficient})
+model_load = load_model(filepath, custom_objects={"dice_coefficient": dice_coefficient})
 model_load.compile(optimizer='adam', 
               loss = 'binary_crossentropy',
               metrics = [dice_coefficient])
