@@ -1,12 +1,14 @@
 # Medical Imaging and Machine Learning
 
-## Lung Segmentation of CT-Scans
-Lung segmentation of CT-Scans to detect severe pathology using UNET Model and TensorFlow library.
+## Lung Segmentation of X-Ray Images
+Lung segmentation of X-Ray Images to detect severe pathology using UNET Model and TensorFlow library.
 
 ### Dataset:-
-* Link to Dataset -> https://www.kaggle.com/tipsijadav/covid19-ct
+* Link to Dataset -> https://www.kaggle.com/nikhilpandey360/chest-xray-masks-and-labels
 
 ### Results:-
-* Dice Coefficient of model on Test Data-Set = 99.24 %
+* Dice Coefficient of model on Test Data-Set = 93.62 %
 
-<img width="591" alt="Graphs" src="https://user-images.githubusercontent.com/77313485/123837567-a24ff380-d928-11eb-830d-7e46703819dc.png">
+<img width="591" alt="Result1" src="https://user-images.githubusercontent.com/77313485/124074062-95362000-da60-11eb-821a-da183bda6275.png">
+
+<img width="591" alt="Result2" src="https://user-images.githubusercontent.com/77313485/124074208-c151a100-da60-11eb-8360-14b59a5cfbeb.png">
