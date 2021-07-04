@@ -1,6 +1,5 @@
 """
 # DATASET DOWNLOAD FROM KAGGLE
-
 1. Go to your kaggle account, Scroll to API section and Click Expire API Token to remove previous tokens.  
 2. Click on Create New API Token - It will download kaggle.json file on your machine.
 3. Run the following commands(Choose the kaggle.json file that you downloaded).
