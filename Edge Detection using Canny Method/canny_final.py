@@ -21,7 +21,6 @@ import matplotlib.pyplot as plt
 import cv2
 
 import warnings
-
 warnings.filterwarnings('ignore')
 
 """DEFINING PATH TO DATA-SET"""
@@ -43,7 +42,6 @@ for i in range(len(xray_path_list)):
 xray_images = np.array(xray_images)
 
 """CANNY-EDGE DETECTION"""
-
 def plot_edges(image_og, image_edge):
     plt.figure(figsize=(10, 10))
 
