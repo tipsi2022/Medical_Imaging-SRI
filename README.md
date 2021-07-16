@@ -1,6 +1,5 @@
 # Medical Imaging and Machine Learning
 
-## Dataset
 * Link to Dataset -> https://www.kaggle.com/nikhilpandey360/chest-xray-masks-and-labels
 
 ## Lung Segmentation of X-Ray Images
