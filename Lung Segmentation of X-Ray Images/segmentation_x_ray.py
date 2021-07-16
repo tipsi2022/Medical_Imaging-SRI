@@ -166,7 +166,7 @@ evalu_load = model_load.evaluate(test_images, test_masks, verbose=0)
 print('Dice Coefficient of model on Test Data-Set = '"{:.2f}".format(evalu_load[1]*100), '%')
 
 """PREDICTION ON TEST DATA-SET"""
-results_load1 = model.predict(test_images)
+results_load1 = evalu_load.predict(test_images)
 results_load2 = results_load1 > 0.5
 results_load = results_load2.astype(int)
 
