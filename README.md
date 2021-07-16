@@ -5,5 +5,5 @@
 ## Lung Segmentation of X-Ray Images
 
 ### Results:-
-* Dice Coefficient of model on Test Data-Set = 93.62 %
+* Dice Coefficient of model on Test Data-Set = 94.05 %
 
