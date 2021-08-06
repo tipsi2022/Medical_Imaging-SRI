@@ -124,7 +124,7 @@ model.summary()
 
 """TRAINING/SAVING THE MODEL"""
 filepath = "/content/model_unet.h5"
-checkpoint = ModelCheckpoint(filepath, monitor="val_dice_coefficient", save_best_only=True, mode='max', save_freq="epoch")
+checkpoint = ModelCheckpoint(filepath, monitor="val_dice_coefficient", save_best_only=False, mode='max', save_freq="epoch")
 history = model.fit(train_images,
                     train_masks,
                     epochs=100,
